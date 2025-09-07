@@ -1,4 +1,4 @@
-# 2323ENG Embedded Systems
+# 2303ENG Embedded Systems
 This is my working drive of all of my labs, workshops and assignments that I have completed <br />
 during the trimester 2 of 2025. The focus of this course is to learn how to design, implement and <br />
 test embedded software on ARM architecture <br />
