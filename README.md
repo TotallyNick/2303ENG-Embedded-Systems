@@ -17,17 +17,17 @@ test embedded software on ARM architecture .
 ## 📂 Repository Structure
 
 .
-├── Labs/           # Weekly lab tasks (GPIO, UART, Timers, Interrupts, etc.)
-├── Workshops/      # In-class practical workshop material
-├── Assignments/    # Assessment submissions (with documentation & code)
+├── Labs/           # Weekly lab tasks (GPIO, UART, Timers, Interrupts, etc.) <br />
+├── Workshops/      # In-class practical workshop material <br />
+├── Assignments/    # Assessment submissions (with documentation & code) <br />
 └── README.md       # You are here!
 
 ## Workshops
 .
-├── WK1/            #  Introduction to Embedded C
-└── WK2/     	     #  Introduction to Embedded C
+├── WK1/            #  Introduction to Embedded C <br />
+└── WK2/     	     #  Introduction to Embedded C <br />
 
 ## Labs
 .
-├── 1A - 2.5%/      # Introduction to Embedded C
-└── 1B - 2.5%/      # Introduction to Embedded C 
+├── 1A - 2.5%/      # Introduction to Embedded C <br />
+└── 1B - 2.5%/      # Introduction to Embedded C <br />
