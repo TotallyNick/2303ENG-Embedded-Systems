@@ -1,18 +1,18 @@
 # 2323ENG Embedded Systems
-This is my working drive of all of my labs, workshops and assignments that I have completed
-during the trimester 2 of 2025. The focus of this course is to learn how to design, implement and
-test embedded software on ARM architecture
+This is my working drive of all of my labs, workshops and assignments that I have completed <br />
+during the trimester 2 of 2025. The focus of this course is to learn how to design, implement and <br />
+test embedded software on ARM architecture <br />
 
-this is also my first time trying to make a decent looking github with good documentation
+this is also my first time trying to make a decent looking github with good documentation <br />
 
 ---
 
 ## 🖥️ Development Environment
 
--**Mircocontroller** Texas Instruments **Tiva TM4C1294NCPDT**
--**Programmer/Debugger** Stellaris ICDI (In-Circuit Debug Interface)
--**IDE** Keil uVision v5
--**Languages** Embedded C
+-**Mircocontroller** Texas Instruments **Tiva TM4C1294NCPDT** <br /> 
+-**Programmer/Debugger** Stellaris ICDI (In-Circuit Debug Interface) <br />
+-**IDE** Keil uVision v5 <br />
+-**Languages** Embedded C <br />
 
 ---
 
