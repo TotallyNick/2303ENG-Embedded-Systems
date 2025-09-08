@@ -29,10 +29,10 @@ void timer_1A_init(void){
 	TIMER1 -> TAMR = 0x1;
 	
 	// prescaler = 0
-	TIMER1 -> TAPR = 0;
+	TIMER1 -> TAPR = 256;
 	
 	// interval
-	TIMER1 -> TAILR = 8000000;
+	TIMER1 -> TAILR = 31250;
 	
 }
 

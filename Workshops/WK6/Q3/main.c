@@ -28,11 +28,11 @@ void timer_1A_init(void){
 	// One-shot-mode
 	TIMER1 -> TAMR = 0x1;
 	
-	// prescaler = 0
-	TIMER1 -> TAPR = 0;
+	// prescaler = 255 + 1
+	TIMER1 -> TAPR = 255;
 	
 	// interval
-	TIMER1 -> TAILR = 8000000;
+	TIMER1 -> TAILR = 31250;
 	
 }
 
