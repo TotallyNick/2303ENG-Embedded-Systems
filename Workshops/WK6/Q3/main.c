@@ -1,6 +1,7 @@
 #include <stdlib.h> 
 #include <TM4C129.h>
 
+// https://youtu.be/N9zq0Ak6yIA
 
 void Timer1A_Handler(void){
 	GPIOK -> DATA ^= (1<<2); // Toggle
