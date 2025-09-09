@@ -82,26 +82,16 @@ static void setDutyClampedPrint(int pct){
     ES_printf("%d%%\r\n", pct);
 }
 
-// SysTick ISR: 10 kHz tick ? 100-tick, 10 ms frame (100 Hz PWM)
+
 void SysTick_Handler(void){
-    // Defensive clamp inside ISR too
     int d = duty;
     if (d < 0)   d = 0;
     if (d > 100) d = 100;
 
     if (ticks < d) LEDS_ON(); else LEDS_OFF();
-
-    // Visible 1 Hz heartbeat on PN1 (toggle once per second)
-    static uint16_t frames = 0;
-    ticks++;
-    if (ticks >= 100){
-        ticks = 0;
-        frames++;
-        if (frames >= 100){              // 100 frames × 10 ms = 1 s
-            GPION->DATA ^= (1U<<1);      // toggle PN1 once/sec
-            frames = 0;
-        }
-    }
+		ticks++;
+    if (ticks >= 100) ticks = 0;   // reset every 100 ticks = 10 ms frame
+	
 }
 
 int main(void){
